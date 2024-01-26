@@ -31,7 +31,7 @@ const shoppingCart = {
     this.total = 0;
   },
 };
-  // Пример использованияshoppingCart.addItem("Товар 1", 100, 2);
+  // Пример использования shoppingCart.addItem("Товар 1", 100, 2);
 shoppingCart.addItem('Товар 2', 50, 3); console.log(shoppingCart.items); // [{ name: "Товар 1", price: 100, quantity: 2 }, { name: "Товар 2", price: 50, quantity: 3 }]
 console.log(shoppingCart.total); // 350
 shoppingCart.removeItem('Товар 1'); console.log(shoppingCart.items); // [{ name: "Товар 2", price: 50, quantity: 3 }]
